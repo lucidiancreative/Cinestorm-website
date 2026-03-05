@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:needsmet.org)"
+      "WebFetch(domain:needsmet.org)",
+      "Bash(git remote add origin https://github.com/lucidiancreative/Cinestorm-website.git)",
+      "Bash(git push --force -u origin main)"
     ]
   }
 }
