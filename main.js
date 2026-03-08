@@ -1,4 +1,16 @@
 
+///////////////////////*Lenis Smooth Scroll*////////////////////
+
+/* global Lenis */
+const lenis = new Lenis();
+
+function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+
 ////////////////////////////*Scope*//////////////////////////////
 
 /* Obtain and anoymize a website visitor's IP address, tally and save 
